@@ -12,158 +12,161 @@
 </head>
 <body>
 
-    <div class="navbar">
-        <a class="active" href="#landing">Home</a>
-        <a href="#projects">Projects</a>
-        <h1 id="logo-title">Jeric</h1>
-        <a href="#tools">Tool</a>
-        <a href="#contact">Contact</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand logo-img" href="#home">
+                <img src="images/logo.png" alt="" width="80" height="80">
+            </a>
+            <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>              
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#landing">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tools">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>         
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="landing" class="container-fluid py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 d-flex justify-content-center mb-4 mb-md-0">
+                <img src="./images/me.png" class="img-fluid rounded" alt="Christian Jeric Santos">
+            </div>
+            <div class="col-lg-6 text-content text-center text-md-center text-lg-start">
+                <h1 class="py-md-2">Christian Jeric Santos</h1>
+                <h3 class="pb-sm-3">Full Stack Developer</h3>
+                <p class="text-light">Experienced Full Stack Web Developer with over 5 years of expertise in designing, developing, and deploying dynamic web applications. Proficient in both front-end and back-end technologies, with a strong focus on creating seamless, user-centric experiences. Adept at leveraging a variety of programming languages, frameworks, and tools to deliver high-quality, scalable solutions.</p>
+            </div>
+        </div>
     </div>
 
-    <section id="landing">
-        <img src="./images/IMG_4625.JPG" alt="">
-
-        <div class="text-content">
-            <h1>Christian Jeric Santos</h1>
-            <h3>Full Stack Developer</h3>
-            <p>Experienced Full Stack Web Developer with over 5 years of expertise in designing, developing, and deploying dynamic web applications. Proficient in both front-end and back-end technologies, with a strong focus on creating seamless, user-centric experiences. Adept at leveraging a variety of programming languages, frameworks, and tools to deliver high-quality, scalable solutions.</p>
-        </div>
-    </section>
-
-    <!-- <section id="projects">
-        <h1 class="title-section">My Projects</h1>
-        <div class="card-container">
-
-            <div class="card">
-                <img src="./images/20-free-things-you-need-to-do-after-launching-your-ecommerce-website-5e664bcb60da5.png.webp" alt="">
-                <div class="card-content">
-                    <h4>E-Commerce</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui soluta molestias quisquam sequi illo, et itaque exercitationem temporibus, beatae laborum optio, veniam officia quae. Expedita culpa nam nobis totam atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repudiandae possimus deserunt cumque autem recusandae soluta excepturi dolores inventore eos, adipisci distinctio perferendis, ab debitis ipsam veniam. Ratione, totam placeat.</p>
+    <div id="projects">
+        <h1 class="title-section pt-5 text-center">My Projects</h1>
+        
+        <div class="container pb-5">
+            <div class="row gx-3 gy-4 m-xl-5">
+                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                    <div class="low-opacity-border border-box text-white p-5">
+                        <img src="./images/project1.jpg" class="img-fluid equal-img" alt="E-Commerce">
+                        <h4 class="mt-3">E-Commerce</h4>
+                        <p class="card-text">Welcome to ShopEase, your ultimate destination for an unparalleled online shopping experience. ShopEase is a cutting-edge eCommerce platform designed to provide a seamless, secure, and intuitive shopping journey for users across all devices. Whether you're browsing for the latest fashion trends, home essentials, or unique gifts, ShopEase brings a diverse range of high-quality products right to your fingertips.</p>
+                    </div>
                 </div>
-            </div>
     
-            <div class="card">
-                <img src="./images/7_food-blog-designs.jpg" alt="">
-                <div class="card-content">
-                    <h4>Blog</h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis possimus fuga officiis animi molestias, cum ducimus quia nemo, est eveniet at odit adipisci dignissimos neque deleniti amet impedit minus perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ducimus obcaecati repudiandae deserunt repellat quod cum quasi ipsam nam dolorem ut fugit sunt, vitae, dolores necessitatibus ullam nemo? Corrupti, nobis.</p>
+                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                    <div class="low-opacity-border border-box text-white p-5">
+                        <img src="./images/project2.jpg" class="img-fluid equal-img" alt="Blog">
+                        <h4 class="mt-3">Blog</h4>
+                        <p class="card-text">Welcome to BLOG, your ultimate destination for seamless blogging. Our platform is designed to empower writers, bloggers, and content creators with all the tools they need to craft, publish, and share their thoughts with the world effortlessly. Whether you're a seasoned blogger or just starting out, BLOG provides the perfect platform to bring your ideas to life and connect with readers worldwide. Start your blogging journey today and make your voice heard!</p>
+                    </div>
                 </div>
-            </div>
-    
-            <div class="card">
-                <img src="./images/Yelp-online-reservation-system-example.jpg" alt="">
-                <div class="card-content">
-                    <h4>Online Booking System</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio eligendi saepe deleniti tempora quo iusto aperiam quia nisi eius numquam, id sunt vel expedita? Suscipit vero quos maxime non officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia a nobis expedita esse sequi adipisci nisi nemo nam, ea laudantium facere, assumenda ad. Vitae provident labore dicta culpa facere aliquam.</p>
-                </div>
-            </div>
-
-        </div>
-    </section> -->
-
-    <section id="projects">
-        <h1 class="title-section">My Projects</h1>
-        <div class="container-fluid">
-            <div class="d-flex justify-content-center row">
-                <div class="text-center col">
-                    <div class="card">
-                        <img src="./images/20-free-things-you-need-to-do-after-launching-your-ecommerce-website-5e664bcb60da5.png.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                </div>
-
-                <div class="col">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="tools">
-        <h1 class="title-section">Tools</h1>
-        <div class="tools-frontend">
-            <h4>Frontend</h4>
-            <img src="./images/HTML5_logo_and_wordmark.svg.png" alt="">
-            <img src="./images/CSS3_logo.svg.png" alt="">
-            <img src="./images/Bootstrap_logo.svg" alt="">
-            <img src="./images/javascript-logo-javascript-icon-transparent-free-png.webp" alt="">
-        </div>
-
-        <div class="tools-mern">
-            <h4>MERN</h4>
-            <img src="./images/MongoDB-Logo.png" alt="">
-            <img src="./images/expressjs_logo_icon_169185.webp" alt="">
-            <img src="./images/reactjs_logo_icon_170805.png" alt="">
-            <img src="./images/1174925.webp" alt="">
-        </div>
-
-        <div class="tools-other-tools">
-            <h4>Other Tools</h4>
-            <img src="./images/heroku_logo_icon_168126.png" alt="">
-            <img src="./images/Git_icon.svg.png" alt="">
-            <img src="./images/postman-icon.svg" alt="">
-            <img src="./images/png-clipart-sublime-text-computer-icons-others-miscellaneous-angle-thumbnail.png" alt="">
-        </div>
-    </section>
-    
-    <section id="contact">
-        <h1 class="title-section">Contact Number</h1>
-        <div class="message-link">
-            <a href="">
-                <img src="./images/facebook-logo-facebook-icon-transparent-free-png.webp" alt="">
-            </a>
-
-            <a href="">
-                <img src="./images/circle-linkedin-512.webp" alt="">
-            </a>
-
-            <a href="">
-                <img src="./images/144_Gitlab_logo_logos-512.webp" alt="">
-            </a>
                 
-            <a href="">
-                <img src="./images/25231.png" alt="">
-            </a>
+                <div class="col-12 col-lg-4 mb-5 mb-lg-0">
+                    <div class="low-opacity-border border-box text-white p-5">
+                        <img src="./images/project3.jpg" class="img-fluid equal-img" alt="Online Booking System">
+                        <h4 class="mt-3">Online Booking System</h4>
+                        <p class="card-text">Our Online Booking System offers a streamlined and efficient way to manage and schedule appointments, reservations, and services. Designed for both businesses and individuals, our platform simplifies the booking process with user-friendly features and seamless integration. Our Online Booking System is the perfect solution for businesses looking to streamline their scheduling process and provide a superior customer experience.</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    
+    <div id="tools" class="container-fluid py-5">
+        <h1 class="title-section text-center mb-4">Tools</h1>
+        <div class="row">
 
-        <div class="container">
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50994.13071285935!2d120.9775588832451!3d14.575536103007598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8d26026386d%3A0x5fed23daac9278d0!2sMetro%20Manila!5e0!3m2!1sen!2sph!4v1722309616084!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="col">
+                <h4 class="text-center">Frontend</h4>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <img src="./images/HTML5_logo_and_wordmark.svg.png" alt="HTML5" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/CSS3_logo.svg.png" alt="CSS3" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/Bootstrap_logo.svg" alt="Bootstrap" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/javascript-logo-javascript-icon-transparent-free-png.webp" alt="JavaScript" class="img-fluid m-2" style="max-width: 100px;">
+                </div>
             </div>
     
-            <div class="message">
-                <h4>Message Us</h4>
-                <form class="contact-form">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required>
-        
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-        
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-        
-                    <button type="submit">Send Message</button>
-                </form>
+            <div class="col">
+                <h4 class="text-center">MERN</h4>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <img src="./images/MongoDB-Logo.png" alt="MongoDB" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/expressjs_logo_icon_169185.webp" alt="Express.js" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/reactjs_logo_icon_170805.png" alt="React" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/1174925.webp" alt="Node.js" class="img-fluid m-2" style="max-width: 100px;">
+                </div>
+            </div>
+    
+            <div class="col">
+                <h4 class="text-center">Other Tools</h4>
+                <div class="d-flex flex-wrap justify-content-center">
+                    <img src="./images/heroku_logo_icon_168126.png" alt="Heroku" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/Git_icon.svg.png" alt="Git" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/postman-icon.svg" alt="Postman" class="img-fluid m-2" style="max-width: 100px;">
+                    <img src="./images/png-clipart-sublime-text-computer-icons-others-miscellaneous-angle-thumbnail.png" alt="Sublime Text" class="img-fluid m-2" style="max-width: 100px;">
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+    
+    <div id="contact" class="container-fluid">
+        <h1 class="title-section">Contact Number</h1>
+
+        <div class="container mt-5">
+            <div class="d-flex justify-content-center social-icons">
+                <a href="https://www.facebook.com/christianjeric.santos/" target="_blank">
+                    <img src="./images/contact-logo/icons8-facebook-48.png" alt="Facebook" class="social-icon">
+                </a>
+                <a href="https://linkedin.com" target="_blank">
+                    <img src="./images/contact-logo/icons8-linkedin-48.png" alt="LinkedIn" class="social-icon">
+                </a>
+                <a href="https://gitlab.com" target="_blank">
+                    <img src="./images/contact-logo/icons8-gitlab-48.png" alt="GitLab" class="social-icon">
+                </a>
+                <a href="https://github.com/Jericsky" target="_blank">
+                    <img src="./images/contact-logo/icons8-github-48.png" alt="GitHub" class="social-icon">
+                </a>
+            </div>
+        </div>
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50994.13071285935!2d120.9775588832451!3d14.575536103007598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c8d26026386d%3A0x5fed23daac9278d0!2sMetro%20Manila!5e0!3m2!1sen!2sph!4v1722309616084!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-md-6 form-container">
+                    <h4>Message Us</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-light">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-light">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-light">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="button-send">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
