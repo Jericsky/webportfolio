@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+
+    .card {
+        width: 325px;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0px 2px 4px rgb(43, 43, 43);
+        margin: 20px;
+    }
+
+    #projects img {
+    max-width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    #landing, #projects div, .tools-frontend, .tools-mern, .tools-other-tools {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+    </style>
+</head>
+<body>
+
+
+    <section id="projects">
+        <h1 class="title-section">My Projects</h1>
+        <div class="card-container">
+
+            <div class="card">
+                <img src="./images/20-free-things-you-need-to-do-after-launching-your-ecommerce-website-5e664bcb60da5.png.webp" alt="">
+                <div class="card-content">
+                    <h4>E-Commerce</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui soluta molestias quisquam sequi illo, et itaque exercitationem temporibus, beatae laborum optio, veniam officia quae. Expedita culpa nam nobis totam atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repudiandae possimus deserunt cumque autem recusandae soluta excepturi dolores inventore eos, adipisci distinctio perferendis, ab debitis ipsam veniam. Ratione, totam placeat.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="./images/7_food-blog-designs.jpg" alt="">
+                <div class="card-content">
+                    <h4>Blog</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis possimus fuga officiis animi molestias, cum ducimus quia nemo, est eveniet at odit adipisci dignissimos neque deleniti amet impedit minus perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, ducimus obcaecati repudiandae deserunt repellat quod cum quasi ipsam nam dolorem ut fugit sunt, vitae, dolores necessitatibus ullam nemo? Corrupti, nobis.</p>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="./images/Yelp-online-reservation-system-example.jpg" alt="">
+                <div class="card-content">
+                    <h4>Online Booking System</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio eligendi saepe deleniti tempora quo iusto aperiam quia nisi eius numquam, id sunt vel expedita? Suscipit vero quos maxime non officia. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia a nobis expedita esse sequi adipisci nisi nemo nam, ea laudantium facere, assumenda ad. Vitae provident labore dicta culpa facere aliquam.</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center mb-4">My Projects</h1>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/20-free-things-you-need-to-do-after-launching-your-ecommerce-website-5e664bcb60da5.png.webp" class="card-img-top" alt="E-Commerce">
+                        <div class="card-body">
+                            <h5 class="card-title">E-Commerce</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui soluta molestias quisquam sequi illo, et itaque exercitationem temporibus, beatae laborum optio, veniam officia quae. Expedita culpa nam nobis totam atque.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/7_food-blog-designs.jpg" class="card-img-top" alt="Blog">
+                        <div class="card-body">
+                            <h5 class="card-title">Blog</h5>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis possimus fuga officiis animi molestias, cum ducimus quia nemo, est eveniet at odit adipisci dignissimos neque deleniti amet impedit minus perferendis.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="./images/Yelp-online-reservation-system-example.jpg" class="card-img-top" alt="Online Booking System">
+                        <div class="card-body">
+                            <h5 class="card-title">Online Booking System</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio eligendi saepe deleniti tempora quo iusto aperiam quia nisi eius numquam, id sunt vel expedita? Suscipit vero quos maxime non officia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tools" class="py-5">
+        <div class="container">
+            <h1 class="text-center mb-4">Tools</h1>
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <h4>Frontend</h4>
+                    <img src="./images/HTML5_logo_and_wordmark.svg.png" class="img-fluid" alt="HTML5">
+                    <img src="./images/CSS3_logo.svg.png" class="img-fluid" alt="CSS3">
+                    <img src="./images/Bootstrap_logo.svg" class="img-fluid" alt="Bootstrap">
+                    <img src="./images/javascript-logo-javascript-icon-transparent-free-png.webp" class="img-fluid" alt="JavaScript">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>MERN</h4>
+                    <img src="./images/MongoDB-Logo.png" class="img-fluid" alt="MongoDB">
+                    <img src="./images/expressjs_logo_icon_169185.webp" class="img-fluid" alt="Express.js">
+                    <img src="./images/reactjs_logo_icon_170805.png" class="img-fluid" alt="React.js">
+                    <img src="./images/1174925.webp" class="img-fluid" alt="Node.js">
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h4>Other Tools</h4>
+                    <img src="./images/heroku_logo_icon_168126.png" class="img-fluid" alt="Heroku">
+                    <img src="./images/Git_icon.svg.png" class="img-fluid" alt="Git">
+                    <img src="./images/postman-icon.svg" class="img-fluid" alt="Postman">
+                    <img src="./images/png-clipart-sublime-text-computer-icons-others-miscellaneous-angle-thumbnail.png" class="img-fluid" alt="Sublime Text">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

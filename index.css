@@ -1,0 +1,250 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1, h3, h4, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    color: #e0e0e0;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #66A5AD;
+}
+
+#logo-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #66A5AD;
+}
+
+/* Landing Section */
+#landing {
+    display: flex;
+    align-items: center;
+    padding: 5rem 18%;
+    background-color: #1a1a1a;
+    gap: 2rem;
+    margin: auto;
+}
+
+#landing img {
+    max-width: 250px;
+    border-radius: 50%;
+    border: 5px solid #66A5AD;
+    transition: transform 0.3s;
+}
+
+#landing img:hover {
+    transform: scale(1.1);
+}
+
+.text-content h1 {
+    font-size: 3rem;
+    color: #66A5AD;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+.text-content h3 {
+    font-size: 1.5rem;
+    color: #C4DFE6;
+    margin-bottom: 1rem;
+}
+
+.text-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+/* Projects Section */
+#projects {
+    padding: 3rem 10%;
+    background-color: #1f1f1f;
+}
+
+.title-section {
+    font-size: 2.5rem;
+    color: #66A5AD;
+    text-align: center;
+    margin-bottom: 2rem;
+} 
+
+#projects div {
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+#projects img {
+    max-width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+}
+
+#projects h4 {
+    font-size: 1.5rem;
+    color: #C4DFE6;
+}
+
+#projects p {
+    max-width: 600px;
+}
+
+#projects img {
+    max-width: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+#projects img:hover {
+    transform: scale(1.05);
+}
+
+
+/* Tools Section */
+#tools {
+    padding: 3rem 10%;
+    background-color: #1a1a1a;
+}
+
+#tools .title-section {
+    margin-bottom: 2rem;
+}
+
+.tools-frontend, .tools-mern, .tools-other-tools {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.tools-frontend h4, .tools-mern h4, .tools-other-tools h4 {
+    font-size: 1.5rem;
+    color: #C4DFE6;
+}
+
+.tools-frontend img, .tools-mern img, .tools-other-tools img {
+    max-width: 100px;
+    transition: transform 0.3s;
+}
+
+.tools-frontend img:hover, .tools-mern img:hover, .tools-other-tools img:hover {
+    transform: scale(1.1);
+}
+
+/* Contact Section */
+#contact {
+    padding: 3rem 10%;
+    background-color: #1f1f1f;
+}
+
+#contact .title-section {
+    margin-bottom: 2rem;
+}
+
+.message-link {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.message-link img {
+    max-width: 50px;
+    transition: transform 0.3s;
+}
+
+.message-link img:hover {
+    transform: scale(1.2);
+}
+
+.map iframe {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+.message {
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    font-size: 1rem;
+    color: #66A5AD;
+    margin-top: 1rem;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #66A5AD;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.contact-form button {
+    margin-top: 1rem;
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #66A5AD;
+    color: #121212;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #C4DFE6;
+}
+
+.container {
+    display: flex;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #landing, #projects div, .tools-frontend, .tools-mern, .tools-other-tools {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
