@@ -84,6 +84,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.picture {
+    filter: drop-shadow(2px 2px 8px gray);
+}
+
 /* .text-content p {
     font-size: 1rem;
     line-height: 1.6;
@@ -144,11 +148,13 @@ body {
 
 .social-icon {
     transition: transform 0.3s ease, filter 0.3s ease;
+    filter: drop-shadow(1px 1px 5px gray);
 }
 
 .social-icon:hover {
     transform: scale(1.2); 
     filter: brightness(1.2);
+    filter: drop-shadow(1px 1px 5px gray);
 }
 
 .map-container, .form-container {
